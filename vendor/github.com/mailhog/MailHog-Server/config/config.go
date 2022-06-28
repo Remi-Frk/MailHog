@@ -5,7 +5,7 @@ import (
 	"flag"
 	"io/ioutil"
 	"log"
-
+	"os"
 	"github.com/ian-kent/envconf"
 	"github.com/mailhog/MailHog-Server/monkey"
 	"github.com/mailhog/data"
@@ -16,7 +16,7 @@ import (
 func DefaultConfig() *Config {
 	return &Config{
 		SMTPBindAddr: "0.0.0.0:1025",
-		APIBindAddr:  "0.0.0.0:8025",
+		APIBindAddr:  "0.0.0.0:" + os.Getenv("PORT"),
 		Hostname:     "mailhog.example",
 		MongoURI:     "127.0.0.1:27017",
 		MongoDb:      "mailhog",

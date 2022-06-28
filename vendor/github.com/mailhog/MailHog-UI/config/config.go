@@ -2,14 +2,14 @@ package config
 
 import (
 	"flag"
-
+	"os"
 	"github.com/ian-kent/envconf"
 )
 
 func DefaultConfig() *Config {
 	return &Config{
 		APIHost:    "",
-		UIBindAddr: "0.0.0.0:8025",
+		UIBindAddr: "0.0.0.0:" + os.Getenv("PORT"),
 		WebPath:    "",
 	}
 }
