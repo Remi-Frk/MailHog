@@ -1,1 +1,1 @@
-web: MailHog
+web: bash bin/start.sh
