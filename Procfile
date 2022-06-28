@@ -1,1 +1,1 @@
-web: MailHog -api-bind-addr 0.0.0.0:${PORT}
+web: MailHog -ui-bind-addr 0.0.0.0:${PORT}
