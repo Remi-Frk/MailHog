@@ -1,1 +1,2 @@
-web: bash bin/start.sh
+web: bash bin/start-web.sh
+tcp: bash bin/start-smtp.sh
