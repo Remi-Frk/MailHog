@@ -1,1 +1,4 @@
-test@exemple.fr:this is a very complicated password !
+test@exemple.fr:$2a$04$LUFahHbUikjWaGp82iclfOsaTVgQXWGMaGKhuUtc.vDrqHyRRrzqe
+test:$2a$04$LUFahHbUikjWaGp82iclfOsaTVgQXWGMaGKhuUtc.vDrqHyRRrzqe
+test@exemple.fr:$2a$04$ZLXuPznF38fizUEj9ZSpUunbFMzfYm431EkgGG2zeIBPTcez9U0Oe
+test:$2a$04$ZLXuPznF38fizUEj9ZSpUunbFMzfYm431EkgGG2zeIBPTcez9U0Oe
